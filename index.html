@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Metadatos -->
+    <meta charset="utf-8">
+    <meta name="author" content="Lizeth Valladares Varas">
+    <meta name="description" content="Portafolio de desarrollo web de Lizeth Valladares Varas">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Titulo -->
+    <title>Lizeth Valladares Varas | Desarrollo Web Front-End</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="imagenes/programming.png">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link href="style.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img src="imagenes/programming.png" width="50" alt="Logo de la página web">
+          </a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#sobre-mi">Acerca de mí</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyectos">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonios">Testimonios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Seccion Hero -->
+    <section class="hero align-items-stretch">
+      <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+        <img class="hero-imagen-desarrollador rounded-circle" src="imagenes/IMG_20190304_203110_867 (1).jpg" alt="Foto de Jane Doe">
+        <h1>Hola, soy Lizeth Valladares Varas</h1>
+        <!-- <h2>Desarrollo sitios web.</h2> -->
+
+        <!--Animación con JavaScript-->
+        <h2 class="text-primary mb-4" id="typewriter"></h2>
+      </div>
+  
+    </section>
+
+    <!-- Sobre mi -->
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo">¿Quién es Lizeth Valladares Varas?</h2>
+        <p class="seccion-texto">Ingeniera en telecomunicaciones, sistemas y electrónica en proceso. Siempre busco superarme a mí misma y aprender para crecer tanto profesionalmente como personalmente. Me esfuerzo por alcanzar mis metas y mantenerme actualizada en las últimas tendencias tecnológicas.
+          Tengo habilidades en el diseño y análisis de sistemas de telecomunicaciones y redes de datos. Soy proactiva, trabajo bien en equipo y resuelvo problemas complejos de manera eficiente. Me apasiona la tecnología y su impacto en la vida de las personas, y estoy comprometida con el aprendizaje continuo para contribuir de manera significativa en mi campo. </p>
+      </div>
+    </section>
+
+    <!-- Experiencia -->
+    <section class="experiencia seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          <!-- Desarrollo Web -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-code"></i>
+            <p class="experiencia-titulo">Desarrollo Web</p>
+            <p>Se desarrollaron sólidas habilidades en diseño y desarrollo web utilizando tecnologías avanzadas como CSS, HTML, JavaScript y React, permitiendo la creación de interfaces intuitivas.</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">HTML</span>
+              <span class="badge text-bg-primary">CSS</span>
+              <span class="badge text-bg-primary">JavaScript</span>
+              <span class="badge text-bg-primary">React</span>
+            </div>
+          </div>
+          <!-- Servicio Social -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-briefcase-fill"></i>
+            <p class="experiencia-titulo">Servicio Social</p>
+            <p>Manejo integral de bases de datos en el Instituto Federal de Telecomunicaciones, incluyendo la actualización, adición y eliminación de datos. Desarrollé competencias avanzadas en la gestión de información, asegurando la precisión y eficiencia en la administración de datos críticos.</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">SQL Server</span>
+              <span class="badge text-bg-primary">Excel</span>
+            </div>
+          </div>
+          <!-- Estudiante -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-pencil"></i>
+            <p class="experiencia-titulo">Estudiante</p>
+            <p>Durante mi enriquecedora trayectoria como estudiante, cultivé mis habilidades en el desarrollo frontend de la mano de Tecnolochicas, mientras que en mi carrera académica profundicé en el diseño de redes, el armado de circuitos y la programación en Python. </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Tecnolochicas PRO</span>
+              <span class="badge text-bg-primary">Desarrollo Web</span>
+              <span class="badge text-bg-primary">Python</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo texto-negro">Mis proyectos recientes</h2>
+      <h3 class="seccion-descripcion">Estos son algunos proyectos que he creado recientemente...</h3>
+      <!-- Galeria de Proyectos -->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row justify-content-center">
+          <!-- Proyecto 1 -->
+          <div class="col-12 col-md-2 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/proyecto1.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 1</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/lizvaras/google-clone-no-fake" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://googleclonereplica.netlify.app/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/proyecto2.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 2</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/lizvaras/googlecone" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://primerpaginaconhtmlycss.netlify.app/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="https://github.com/lizvaras" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">
+          Ver más proyectos
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+
+    <!-- Testimonios -->
+    <section id="testimonios" class="testimonios seccion-clara">
+      <h2 class="seccion-titulo">Referencias</h2>
+      <h3 class="seccion-descripcion">Estos son algunas de mis referencias.</h3>
+      
+      <!-- Carrusel -->
+      <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/WhatsApp Image 2024-05-27 at 18.58.53.jpeg" alt="Foto de Gino">
+              <p class="testimonio-texto">Conozco a Lizeth Valladares Varas desde hace cinco años y siempre me ha impresionado su profesionalismo y responsabilidad,es una persona altamente organizada, capaz de gestionar múltiples tareas y proyectos con eficiencia y precisión. Su compromiso con el trabajo y su ética profesional son ejemplares, lo que lo convierte en una persona de confianza en cualquier entorno profesional.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Carlos Hernandez</p>
+                <p class="cargo">Ingeniero en telecomunicaciones, sistemas y electrónica</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/WhatsApp Image 2024-05-27 at 19.09.08.jpeg" alt="Foto de Gino">
+              <p class="testimonio-texto">He conocido a Lizeth Valladares Varas durante más de dos años, tanto en un contexto profesional como personal, y puedo decir con confianza que su integridad es insuperable.Siempre actúa con honestidad y transparencia, y su habilidad para comunicarse de manera clara y efectiva ha sido una gran ventaja en nuestro equipo. Es una persona que se preocupa genuinamente por el bienestar de los demás y siempre está dispuesto a escuchar y ofrecer apoyo cuando es necesario.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Luis Frias</p>
+                <p class="cargo">Estudiante de ITSE</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/WhatsApp Image 2024-05-27 at 19.10.29.jpeg" alt="Foto de Leonardo">
+              <p class="testimonio-texto">Tuve la oportunidad de trabajar con Lizeth Valladares en varios proyectos creativos y su capacidad para generar ideas innovadoras siempre ha sido impresionante. Posee una creatividad innata y una habilidad para colaborar efectivamente con diferentes equipos. Su enfoque en la resolución de problemas y su capacidad para pensar fuera de la caja han sido fundamentales para el éxito de nuestros proyectos. Además, su actitud positiva y su disposición para ayudar a los demás lo hacen una persona muy apreciada en cualquier equipo.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Jaqueline Aramin</p>
+                <p class="cargo">Becaria en el IFT</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contacto seccion-oscura">
+      <div class="container">
+        <div class="container text-center rectangulo d-flex justify-content-evenly">
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo">
+              ¡Contactame!
+            </div>
+            <div class="col-12 col-md-4 descripcion">
+              Contáctame para iniciar tu proyecto de desarrollo web y haré que tu visión se vuelva realidad.
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="mailto:liiz1619@gmail.com">
+                <button type="button">  
+                  Contacto
+                  <i class="bi bi-envelope-check-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Pie de pagina (footer) -->
+    <footer class="Seccion d-flex flex-column align-items-center justify-content-center"> 
+      <img class="footer-logo" src="imagenes/programming.png" alt="Logo del portafolio">
+      <p class="footer-texto text-center">Aprendo y creo todos los días.<br>Creemos un proyecto juntos.</p>
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        <a href="https://github.com/lizvaras" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/valladaresvaraslizetha22a86275/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="mailto:liiz1619@gmail.com" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-envelope"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor">Creado por Lizeth Valladares Varas (2024) &#169;</div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+        <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+        <script src="main.js"></script>
+
+  </body>
+</html>
